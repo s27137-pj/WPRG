@@ -34,7 +34,7 @@ for ($i = 0; $i < $count - 1; $i += 2) {
 }
 
 foreach ($associative_array as $key => $value) {
-    echo $key . " => " . $value . "\n";
+    echo "<div>". $key . " => " . $value . "</div>\n";
 }
 
 
