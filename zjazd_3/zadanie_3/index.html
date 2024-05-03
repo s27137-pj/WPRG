@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Handle Directory</title>
+</head>
+<body>
+<h2>Manage Directories</h2>
+<form method="POST" action="handleDirectory.php">
+    <label for="directoryPath">Directory Path:</label>
+    <input type="text" id="directoryPath" name="directoryPath" required>
+    <label for="directoryName">Directory Name:</label>
+    <input type="text" id="directoryName" name="directoryName" required>
+    <label for="operation">Operation:</label>
+    <select id="operation" name="operation">
+        <option value="read">Read</option>
+        <option value="delete">Delete</option>
+        <option value="create">Create</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
